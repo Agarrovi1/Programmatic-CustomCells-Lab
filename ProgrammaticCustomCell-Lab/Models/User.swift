@@ -26,7 +26,7 @@ struct User: Codable {
         return name.first.firstUppercased + " " + name.last.firstUppercased
     }
     func getFullAddress() -> String {
-        return "\(location.street) \(location.city), \(location.state)"
+        return "\(location.street.name) \(location.city), \(location.state)"
     }
     
 }
@@ -43,9 +43,12 @@ struct Picture: Codable {
 }
 
 struct Location: Codable {
-    let street: String
+    let street: Street
     let city: String
     let state: String
+}
+struct Street:Codable {
+    let name: String
 }
 
 struct DOB: Codable {
