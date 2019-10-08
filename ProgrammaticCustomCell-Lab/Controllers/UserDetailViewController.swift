@@ -74,7 +74,7 @@ class UserDetailViewController: UIViewController {
         dobLabel.topAnchor.constraint(equalTo: locationLabel.bottomAnchor, constant: 20).isActive = true
         dobLabel.leadingAnchor.constraint(equalTo: imageView.leadingAnchor).isActive = true
         dobLabel.trailingAnchor.constraint(equalTo: imageView.trailingAnchor).isActive = true
-        dobLabel.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
+        dobLabel.bottomAnchor.constraint(lessThanOrEqualTo: self.view.bottomAnchor).isActive = true
         
     }
 
@@ -83,7 +83,7 @@ class UserDetailViewController: UIViewController {
         nameLabel.text = user.getFullNameUppercased()
         emailLabel.text = user.email
         locationLabel.text = user.getFullAddress()
-        dobLabel.text = user.dob.date
+        dobLabel.text = user.getDate()
     }
     private func loadPic() {
         guard let user = user else {return}

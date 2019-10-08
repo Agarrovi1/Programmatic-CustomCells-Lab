@@ -28,6 +28,17 @@ struct User: Codable {
     func getFullAddress() -> String {
         return "\(location.street.name) \(location.city), \(location.state)"
     }
+    func getDate() -> String {
+        let dateString = dob.date.split(separator: "T")
+        let stringToDateFormatter = DateFormatter()
+        stringToDateFormatter.dateFormat = "yyyy-MM-dd"
+        let newDateFormatter = DateFormatter()
+        newDateFormatter.dateFormat = "MMMM-dd-yyyy"
+        if let date = stringToDateFormatter.date(from:String(dateString[0])) {
+            return newDateFormatter.string(from: date)
+        }
+        return String()
+    }
     
 }
 
