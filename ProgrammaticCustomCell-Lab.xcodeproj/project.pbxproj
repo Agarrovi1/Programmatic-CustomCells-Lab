@@ -79,12 +79,12 @@
 		4DC8AC07234D0BFF0002B2C5 /* ProgrammaticCustomCell-Lab */ = {
 			isa = PBXGroup;
 			children = (
-				4DC8AC08234D0BFF0002B2C5 /* AppDelegate.swift */,
-				4DC8AC0A234D0BFF0002B2C5 /* SceneDelegate.swift */,
-				4DC8AC0C234D0BFF0002B2C5 /* ViewController.swift */,
+				4DC8AC2D234D0D5A0002B2C5 /* Models */,
+				4DC8AC2C234D0D520002B2C5 /* Views */,
+				4DC8AC2B234D0D3E0002B2C5 /* Controllers */,
+				4DC8AC2A234D0D320002B2C5 /* Supporting Files */,
 				4DC8AC0E234D0BFF0002B2C5 /* Main.storyboard */,
 				4DC8AC11234D0BFF0002B2C5 /* Assets.xcassets */,
-				4DC8AC13234D0BFF0002B2C5 /* LaunchScreen.storyboard */,
 				4DC8AC16234D0BFF0002B2C5 /* Info.plist */,
 			);
 			path = "ProgrammaticCustomCell-Lab";
@@ -97,6 +97,38 @@
 				4DC8AC21234D0BFF0002B2C5 /* Info.plist */,
 			);
 			path = "ProgrammaticCustomCell-LabTests";
+			sourceTree = "<group>";
+		};
+		4DC8AC2A234D0D320002B2C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC8AC08234D0BFF0002B2C5 /* AppDelegate.swift */,
+				4DC8AC0A234D0BFF0002B2C5 /* SceneDelegate.swift */,
+				4DC8AC13234D0BFF0002B2C5 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DC8AC2B234D0D3E0002B2C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DC8AC0C234D0BFF0002B2C5 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4DC8AC2C234D0D520002B2C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DC8AC2D234D0D5A0002B2C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
