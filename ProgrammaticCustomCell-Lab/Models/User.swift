@@ -7,11 +7,11 @@
 //
 
 import Foundation
-struct UserWrapper {
+struct UserWrapper: Codable {
     let results: [User]
 }
 
-struct User {
+struct User: Codable {
     let name: UserName
     let email: String
     let location: Location
