@@ -19,6 +19,7 @@
 		4DC8AC35234D109B0002B2C5 /* UserAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8AC34234D109B0002B2C5 /* UserAPIHelper.swift */; };
 		4DC8AC37234D12F50002B2C5 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8AC36234D12F50002B2C5 /* UserTableViewCell.swift */; };
 		4DC8AC39234D19090002B2C5 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8AC38234D19080002B2C5 /* ImageHelper.swift */; };
+		4DC8AC3B234D1CAE0002B2C5 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8AC3A234D1CAE0002B2C5 /* UserDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		4DC8AC34234D109B0002B2C5 /* UserAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIHelper.swift; sourceTree = "<group>"; };
 		4DC8AC36234D12F50002B2C5 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		4DC8AC38234D19080002B2C5 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		4DC8AC3A234D1CAE0002B2C5 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				4DC8AC0C234D0BFF0002B2C5 /* ViewController.swift */,
+				4DC8AC3A234D1CAE0002B2C5 /* UserDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				4DC8AC33234D0E940002B2C5 /* User.swift in Sources */,
 				4DC8AC31234D0E1F0002B2C5 /* NetworkHelper.swift in Sources */,
 				4DC8AC37234D12F50002B2C5 /* UserTableViewCell.swift in Sources */,
+				4DC8AC3B234D1CAE0002B2C5 /* UserDetailViewController.swift in Sources */,
 				4DC8AC09234D0BFF0002B2C5 /* AppDelegate.swift in Sources */,
 				4DC8AC35234D109B0002B2C5 /* UserAPIHelper.swift in Sources */,
 				4DC8AC0B234D0BFF0002B2C5 /* SceneDelegate.swift in Sources */,

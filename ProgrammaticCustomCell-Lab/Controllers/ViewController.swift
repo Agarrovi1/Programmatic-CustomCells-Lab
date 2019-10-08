@@ -87,4 +87,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         return 160
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedUser = users[indexPath.row]
+        let detailVC = UserDetailViewController()
+        detailVC.user = selectedUser
+        present(detailVC, animated: true, completion: nil)
+    }
+    
 }
