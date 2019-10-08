@@ -13,6 +13,8 @@
 		4DC8AC12234D0BFF0002B2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8AC11234D0BFF0002B2C5 /* Assets.xcassets */; };
 		4DC8AC15234D0BFF0002B2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8AC13234D0BFF0002B2C5 /* LaunchScreen.storyboard */; };
 		4DC8AC20234D0BFF0002B2C5 /* ProgrammaticCustomCell_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8AC1F234D0BFF0002B2C5 /* ProgrammaticCustomCell_LabTests.swift */; };
+		4DC8AC2F234D0DFF0002B2C5 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8AC2E234D0DFF0002B2C5 /* AppError.swift */; };
+		4DC8AC31234D0E1F0002B2C5 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8AC30234D0E1F0002B2C5 /* NetworkHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4DC8AC1B234D0BFF0002B2C5 /* ProgrammaticCustomCell-LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProgrammaticCustomCell-LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC8AC1F234D0BFF0002B2C5 /* ProgrammaticCustomCell_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticCustomCell_LabTests.swift; sourceTree = "<group>"; };
 		4DC8AC21234D0BFF0002B2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC8AC2E234D0DFF0002B2C5 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		4DC8AC30234D0E1F0002B2C5 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 		4DC8AC2D234D0D5A0002B2C5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4DC8AC2E234D0DFF0002B2C5 /* AppError.swift */,
+				4DC8AC30234D0E1F0002B2C5 /* NetworkHelper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC8AC2F234D0DFF0002B2C5 /* AppError.swift in Sources */,
 				4DC8AC0D234D0BFF0002B2C5 /* ViewController.swift in Sources */,
+				4DC8AC31234D0E1F0002B2C5 /* NetworkHelper.swift in Sources */,
 				4DC8AC09234D0BFF0002B2C5 /* AppDelegate.swift in Sources */,
 				4DC8AC0B234D0BFF0002B2C5 /* SceneDelegate.swift in Sources */,
 			);
